@@ -1,4 +1,8 @@
 [[package]]
+name = "atags"
+version = "0.1.0"
+
+[[package]]
 name = "bare-metal"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -217,6 +221,7 @@ dependencies = [
 name = "ucore"
 version = "0.1.0"
 dependencies = [
+ "atags 0.1.0",
  "bbl 0.1.0",
  "bcm2837 0.1.0",
  "bit-allocator 0.1.0",
